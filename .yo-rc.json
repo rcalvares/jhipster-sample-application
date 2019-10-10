@@ -1,0 +1,47 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "jhipsterSampleApplication",
+    "packageName": "com.application.myapp",
+    "packageFolder": "com/application/myapp",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.4.0",
+    "jwtSecretKey": "ODdiNWRmNTI1YzRkNjVkMTFiMDE1ZDY4YTg0N2Q2Nzc3ZTYwY2U3NTQ3NmJmOTdkMDQ5OTcyNzNmYzQ4NGM5YTc1ODdlZTQ0MTE2Mjg3NTJkY2JmOWQyYmNlOTAxMzZmOGJmYjBlZjRhNzg4NjEwNGE0MDU2NTE5ZTA4YTEyMTE=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "rcalvares",
+  "repository-name": "jhipster-sample-application"
+}
